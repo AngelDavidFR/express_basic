@@ -12,4 +12,6 @@ app.listen(port,() => {
     console.log(`Example app listening on port ${port}`)
 })
 
-
+app.get('/launchx', (req, res) => {
+    res.send('Bienvenidos a launchx')
+})
